@@ -40,4 +40,22 @@ In short, MaxCompute is Alibaba Cloud’s core tool for serverless, scalable big
 
 In short, Hologres is an Alibaba Cloud-native, PostgreSQL-compatible HSAP engine that brings real-time ingestion, interactive analytics, and online serving into a single, enterprise-grade data warehouse platform.
 
+# E-MapReduce
 
+**E-MapReduce (EMR)** is Alibaba Cloud’s big data processing platform built on open-source frameworks like Apache Hadoop, Spark, Hive, Flink, and more. It allows users to process and analyze massive amounts of data using a fully managed, scalable, and cost-effective cloud-native architecture.
+
+🔍 **Key Features**
+ - **Open-Source Compatibility**: Fully supports Hadoop ecosystem tools: HDFS, Hive, Spark, Flink, HBase, Presto, Hue, etc.
+ - **Elastic & Serverless Options**: Offers both dedicated clusters and serverless EMR Serverless for dynamic scalability—adjusts computing resources based on workload needs.
+ - **Deep Integration with Alibaba Ecosystem**: Works seamlessly with MaxCompute, OSS (Object Storage Service), DataWorks, and other Alibaba Cloud services.
+ - **Cluster Management**: Provides an easy-to-use interface for cluster creation, configuration, job submission, and monitoring.
+ - **Security & Governance**: Includes VPC network isolation, RAM-based access control, encryption, and audit logging.
+ - **Multi-Engine Support**: You can run batch jobs (MapReduce), stream processing (Flink), SQL queries (Hive, Presto), and machine learning (Spark MLlib) all in one place.
+
+✅ **Use Cases**
+ - Log & Clickstream Analysis: Process TBs of user logs with Spark or Hive.
+ - ETL Pipelines: Transform raw data and load into warehouses like MaxCompute or Hologres.
+ - Real-Time Data Processing: Use Flink on EMR for real-time stream processing.
+ - Data Science & ML: Use Spark to run scalable machine learning algorithms.
+
+E-MapReduce is Alibaba Cloud’s answer to Amazon EMR or Google Dataproc—a fully managed cloud-native big data platform that simplifies running open-source data processing frameworks at scale, with flexible deployment, seamless integration, and full-stack support for both batch and real-time workloads.
